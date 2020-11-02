@@ -53,16 +53,8 @@ public class GenerateFizzBuzzReport {
 			
 		}
 		
-		generatedString += "\nfizz: " + fizz;
-		generatedString += "\nbuzz: " + buzz;
-		generatedString += "\nfizzbuzz: " + fizzbuzz;
-		generatedString += "\nlucky: " + lucky;
-		generatedString += "\ninteger: " + unchangedInt;
-//		System.out.println("fizz: " + fizz);
-//		System.out.println("buzz: " + buzz);
-//		System.out.println("fizzbuzz: " + fizzbuzz);
-//		System.out.println("lucky: " + lucky);
-//		System.out.println("integer: " + unchangedInt);
+		generatedString += "\nfizz: " + fizz + "\nbuzz: " + buzz + "\nfizzbuzz: " + fizzbuzz 
+				+ "\nlucky: " + lucky + "\ninteger: " + unchangedInt;
 			
 		return generatedString;
 	}
